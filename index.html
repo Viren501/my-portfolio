@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Viren Vairagi — Computer Engineering Graduate</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <!-- FontAwesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Portfolio Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================================================
+       NAVIGATION
+  ============================================================ -->
+  <nav id="navbar" role="navigation" aria-label="Primary navigation">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">VV<span>.</span></a>
+
+      <ul class="nav-links" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#publications">Publications</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact" class="nav-cta">Contact</a></li>
+      </ul>
+
+      <button class="nav-toggle" aria-label="Toggle mobile menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav Drawer -->
+  <div class="nav-drawer" id="nav-drawer" aria-hidden="true">
+    <a href="#about"        class="drawer-link">About</a>
+    <a href="#skills"       class="drawer-link">Skills</a>
+    <a href="#experience"   class="drawer-link">Experience</a>
+    <a href="#projects"     class="drawer-link">Projects</a>
+    <a href="#publications" class="drawer-link">Publications</a>
+    <a href="#education"    class="drawer-link">Education</a>
+    <a href="#contact"      class="drawer-link">Contact</a>
+  </div>
+
+
+  <!-- ============================================================
+       HERO SECTION
+  ============================================================ -->
+  <section id="hero" aria-label="Hero introduction">
+
+    <!-- Animated dot-matrix canvas — signature visual element -->
+    <canvas id="hero-canvas" aria-hidden="true"></canvas>
+
+    <div class="container">
+      <div class="hero-grid">
+        
+        <!-- Left Side: Text -->
+        <div class="hero-content">
+          <div class="hero-eyebrow">Computer Engineering Graduate</div>
+          <h1 class="hero-title">
+            Hi, I'm<br />
+            <span class="name-accent">Viren Vairagi</span>
+          </h1>
+          <p class="hero-tagline">
+            Python Developer specializing in building intelligent, data-driven applications. I combine machine learning and software engineering—transforming complex data into real-world solutions using Python, while currently expanding into n8n workflow automation to build scalable, automated systems.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fas fa-folder-open" aria-hidden="true"></i> View Projects
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <i class="fas fa-paper-plane" aria-hidden="true"></i> Contact Me
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <span class="hero-meta-item">
+              <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+              Ahmedabad, Gujarat
+            </span>
+            <span class="hero-meta-item">
+              <i class="fas fa-envelope" aria-hidden="true"></i>
+              vairagiviren5@gmail.com
+            </span>
+            <span class="hero-meta-item">
+              <i class="fas fa-phone" aria-hidden="true"></i>
+              +91-9426361308
+            </span>
+          </div>
+        </div>
+
+        <!-- Right Side: Photo -->
+        <div class="hero-visual reveal">
+          <div class="hero-image-wrapper">
+            <!-- IMPORTANT: Change "profile.jpg" to your actual image file name -->
+            <img src="profile.jpg" alt="Viren Vairagi" />
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <!-- <div class="scroll-hint" aria-hidden="true">
+      <span>Scroll</span>
+      <i class="fas fa-chevron-down"></i>
+    </div> -->
+
+  </section>
+
+
+  <!-- ============================================================
+       ABOUT SECTION
+  ============================================================ -->
+  <section id="about" aria-labelledby="about-title">
+    <div class="container">
+
+      <div class="section-head reveal">
+        <p class="section-label">About Me</p>
+        <h2 class="section-title" id="about-title">Data Science | Machine Learning | Python Developer</h2>
+      </div>
+
+      <div class="about-grid">
+
+        <div class="about-text reveal">
+          <p>
+            I am a Computer Engineering graduate from S.P.B. Patel Engineering College, Mehsana. My work lives at the crossroads of software development and machine learning, with a strong focus on architecting and deploying robust, end-to-end ML pipelines to solve complex, real-world predictive challenges.
+          </p>
+          <p>
+            I approach engineering problems analytically: start with the data, understand the system, then design solutions that are both technically sound and practically useful. As a highly adaptable and quick learner, I thrive on mastering new technologies and modern frameworks to continuously refine my technical toolkit and build scalable applications.
+          </p>
+          <p>
+            Outside the codebase, I excel in collaborative environments, having successfully partnered with cross-functional teams for the Smart India Hackathon and co-authored research with academic peers. I am currently open to work and actively seeking industry roles in Python development, software engineering, or machine learning where I can deliver immediate impact and continue to grow.
+          </p>
+        </div>
+
+        <div class="about-stats reveal-stagger">
+          <div class="stat-card">
+            <div class="stat-value">8.00</div>
+            <div class="stat-label">CGPA (B.E. Computer Engineering)</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">2</div>
+            <div class="stat-label">Industry Internships Completed</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">1</div>
+            <div class="stat-label">Springer Research Publication</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">3rd</div>
+            <div class="stat-label">Prize at Intercollegiate Hackathon</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       SKILLS SECTION
+  ============================================================ -->
+  <section id="skills" aria-labelledby="skills-title">
+    <div class="container">
+
+      <div class="section-head reveal">
+        <p class="section-label">Technical Skills</p>
+        <h2 class="section-title" id="skills-title">Tools of the Trade</h2>
+        <p class="section-subtitle">A working toolkit built through academic coursework, internships, and hands-on project delivery.</p>
+      </div>
+
+      <div class="skills-grid reveal-stagger">
+
+        <!-- Languages & Databases -->
+        <div class="skill-group">
+          <div class="skill-group-header">
+            <div class="skill-group-icon icon-cyan">
+              <i class="fas fa-code" aria-hidden="true"></i>
+            </div>
+            <h3 class="skill-group-title">Languages &amp; Databases</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">SQL</span>
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS3</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">PHP</span>
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">C</span>
+          </div>
+        </div>
+
+        <!-- Libraries & Frameworks -->
+        <div class="skill-group">
+          <div class="skill-group-header">
+            <div class="skill-group-icon icon-violet">
+              <i class="fas fa-cubes" aria-hidden="true"></i>
+            </div>
+            <h3 class="skill-group-title">Libraries &amp; Frameworks</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">NumPy</span>
+            <span class="skill-tag">Pandas</span>
+            <span class="skill-tag">Scikit-Learn</span>
+            <span class="skill-tag">Matplotlib</span>
+            <span class="skill-tag">Seaborn</span>
+            <span class="skill-tag">Streamlit</span>
+            <span class="skill-tag">SciPy</span>
+          </div>
+        </div>
+
+        <!-- Tools & Platforms -->
+        <div class="skill-group">
+          <div class="skill-group-header">
+            <div class="skill-group-icon icon-green">
+              <i class="fas fa-tools" aria-hidden="true"></i>
+            </div>
+            <h3 class="skill-group-title">Tools &amp; Platforms</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Jupyter Notebook</span>
+            <span class="skill-tag">PyCharm</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Power BI</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">XAMPP</span>
+          </div>
+        </div>
+
+        <!-- Core Concepts -->
+        <div class="skill-group">
+          <div class="skill-group-header">
+            <div class="skill-group-icon icon-amber">
+              <i class="fas fa-brain" aria-hidden="true"></i>
+            </div>
+            <h3 class="skill-group-title">Core Concepts</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Machine Learning</span>
+            <span class="skill-tag">Data Analysis &amp; EDA</span>
+            <span class="skill-tag">OOP</span>
+            <span class="skill-tag">Data Structures &amp; Algorithms</span>
+            <span class="skill-tag">DBMS</span>
+            <span class="skill-tag">Software Engineering</span>
+            <span class="skill-tag">IoT Systems</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       EXPERIENCE SECTION
+  ============================================================ -->
+  <section id="experience" aria-labelledby="experience-title">
+    <div class="container">
+
+      <div class="section-head reveal">
+        <p class="section-label">Experience</p>
+        <h2 class="section-title" id="experience-title">Professional Journey</h2>
+      </div>
+
+      <div class="timeline reveal">
+
+        <!-- BrainyBeam -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <h3 class="timeline-role">Data Science &amp; Machine Learning with Data Analytics Intern</h3>
+              <div style="display: flex; align-items: center; gap: 0.8rem;">
+                <span class="timeline-badge">Final Year Internship</span>
+                
+                <a href="assets/brainybeam-certificate.pdf" target="_blank" rel="noopener" class="project-link" aria-label="View Certificate" title="View Certificate">
+                  <i class="fas fa-eye" aria-hidden="true"></i>
+                </a>
+              </div>
+              
+            </div>
+            <div class="timeline-company">BrainyBeam Info-Tech Pvt. Ltd. — Ahmedabad</div>
+            <div class="timeline-period">
+              <i class="fas fa-calendar-alt" aria-hidden="true"></i>&nbsp;
+              January 2026 – March 2026
+            </div>
+            <ul class="timeline-points">
+              <li>Worked on real-world data science and ML pipelines in a professional product environment.</li>
+              <li>Applied EDA, feature engineering, and classification model benchmarking to solve business-facing problems.</li>
+              <li>Collaborated with cross-functional teams to surface actionable insights from raw datasets using Python and Power BI.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- InfoLabz -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <h3 class="timeline-role">Data Analysis &amp; Machine Learning Intern</h3>
+              <span class="timeline-badge">Summer Internship</span>
+            </div>
+            <div class="timeline-company">InfoLabz IT Services Pvt. Ltd. — Ahmedabad</div>
+            <div class="timeline-period">
+              <i class="fas fa-calendar-alt" aria-hidden="true"></i>&nbsp;
+              July 2025 – July 2025
+            </div>
+            <ul class="timeline-points">
+              <li>Gained hands-on exposure to end-to-end data science workflows in an IT services context.</li>
+              <li>Strengthened skills in data preprocessing, visualisation, and supervised learning model evaluation.</li>
+              <li>Contributed to team deliverables using Python (Pandas, matplotlib, Scikit-Learn) and interactive dashboards using PowerBI.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Deloitte Certificate Card -->
+         <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="timeline-meta">
+              <h3 class="timeline-role">Data Analytics Job Simulation</h3>
+              <!-- View Certificate Button -->
+              <!-- Update the href path to where your file is actually saved -->
+              <a href="assets/deloitte-certificate.pdf" target="_blank" rel="noopener" class="project-link" aria-label="View Certificate">
+                <i class="fas fa-eye" aria-hidden="true"></i>
+              </a>
+            </div>
+            <div class="timeline-company">Deloitte</div>
+            <ul class="timeline-points">
+              <li>Certificate of Completion issued by Deloitte on June 19th, 2026. Completed practical tasks simulating real-world scenarios, focusing specifically on data analysis and forensic technology methodologies.</li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       PROJECTS SECTION
+  ============================================================ -->
+  <section id="projects" aria-labelledby="projects-title">
+    <div class="container">
+
+      <div class="section-head reveal">
+        <p class="section-label">Projects</p>
+        <h2 class="section-title" id="projects-title">Selected Work</h2>
+        <p class="section-subtitle">End-to-end builds spanning ML pipelines, IoT systems, and data-driven web applications.</p>
+      </div>
+
+      <div class="projects-grid reveal-stagger">
+
+        <!-- Project 1: Job Offer Prediction -->
+        <article class="project-card">
+          <div class="project-card-header">
+            <div class="project-icon icon-cyan-soft">
+              <i class="fas fa-user-tie" aria-hidden="true"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Viren501/Job_Offer_Acceptance_Prediction" target="_blank" rel="noopener" class="project-link" aria-label="GitHub repository">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+              <a href="https://jobofferacceptanceprediction.streamlit.app/" target="_blank" rel="noopener" class="project-link" aria-label="Live demo">
+                <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Job Offer Acceptance Prediction</h3>
+          <p class="project-desc">
+            End-to-end ML pipeline predicting candidate offer acceptance to help HR teams
+            optimize recruitment strategies and reduce candidate dropouts. Benchmarked multiple
+            classification models; Random Forest emerged as the best-performing algorithm.
+            Deployed as a real-time Streamlit web application.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">Pandas</span>
+            <span class="stack-tag">EDA</span>
+            <span class="stack-tag">Scikit-Learn</span>
+            <span class="stack-tag">Random Forest</span>
+            <span class="stack-tag">Streamlit</span>
+          </div>
+        </article>
+
+        <!-- Project 2: Traffic Control -->
+        <article class="project-card">
+          <div class="project-card-header">
+            <div class="project-icon icon-violet-soft">
+              <i class="fas fa-traffic-light" aria-hidden="true"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/vairagiviren5" target="_blank" rel="noopener" class="project-link" aria-label="GitHub repository">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+              <!-- <a href="#" class="project-link" aria-label="Live demo">
+                <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+              </a> -->
+            </div>
+          </div>
+          <h3 class="project-title">Adaptive &amp; Collaborative Traffic Control System</h3>
+          <p class="project-desc">
+            IoT-based monitoring system for real-time traffic density detection and congestion
+            forecasting using machine learning. Implements adaptive signal control via IoT sensor
+            data and Random Forest. Features V2X communication for automatic emergency vehicle
+            prioritization — deployed as an interactive Streamlit dashboard.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">IoT</span>
+            <span class="stack-tag">Random Forest</span>
+            <span class="stack-tag">V2X</span>
+            <span class="stack-tag">Streamlit</span>
+            <span class="stack-tag">ML Forecasting</span>
+          </div>
+        </article>
+
+        <!-- Project 3: Car Mileage -->
+        <article class="project-card">
+          <div class="project-card-header">
+            <div class="project-icon icon-green-soft">
+              <i class="fas fa-car" aria-hidden="true"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/vairagiviren5" target="_blank" rel="noopener" class="project-link" aria-label="GitHub repository">
+                <!-- <i class="fab fa-github" aria-hidden="true"></i> -->
+              </a>
+              <a href="#" class="project-link" aria-label="Live demo">
+                <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Car Average (Mileage) Prediction</h3>
+          <p class="project-desc">
+            Data analysis project applying Linear Regression to predict vehicle fuel efficiency
+            from automotive specifications. Performed end-to-end EDA with Pandas and NumPy,
+            engineered predictive features, and produced clear visualizations of feature
+            correlations and model outcomes using Matplotlib and Seaborn.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">Pandas</span>
+            <span class="stack-tag">NumPy</span>
+            <span class="stack-tag">Linear Regression</span>
+            <span class="stack-tag">Matplotlib</span>
+            <span class="stack-tag">Seaborn</span>
+          </div>
+        </article>
+
+        <!-- Project 4: Hotel Management -->
+        <article class="project-card">
+          <div class="project-card-header">
+            <div class="project-icon icon-violet-soft">
+              <i class="fas fa-hotel" aria-hidden="true"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Viren501/Hotel-Management-Project" target="_blank" rel="noopener" class="project-link" aria-label="GitHub repository">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Hotel Management System</h3>
+          <p class="project-desc">
+            A full-stack web development project built for hotel browsing and reservations. Designed a modern, responsive user interface featuring glassmorphism design principles, dynamic hotel listing grids, and premium amenity showcases. Implemented user authentication with secure login and registration forms, utilizing PHP and XAMPP for the backend architecture and local testing. 
+          </p>
+          <div class="project-stack">
+            <!-- Update these tags based on what you actually used! -->
+            <span class="stack-tag">HTML</span>
+            <span class="stack-tag">CSS</span>
+            <span class="stack-tag">JavaScript</span>
+            <span class="stack-tag">PHP</span>
+            <span class="stack-tag">XAMPP</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       PUBLICATIONS SECTION
+  ============================================================ -->
+  <section id="publications" aria-labelledby="pub-title">
+    <div class="container">
+
+      <div class="section-head reveal">
+        <p class="section-label">Publications</p>
+        <h2 class="section-title" id="pub-title">Research Work</h2>
+        <p class="section-subtitle">Peer-reviewed contributions to AI and intelligent systems engineering.</p>
+      </div>
+
+      <div class="reveal">
+        <div class="pub-card">
+          <div class="pub-index">01</div>
+          <div class="pub-body">
+            <div class="pub-venue-tag">
+              <i class="fas fa-book-open" aria-hidden="true"></i>
+              Springer — ICACCP 2025
+            </div>
+            <h3 class="pub-title">
+              Multi-Feature Collaborative Traffic Management: An AI And IoT-Integrated Approach
+            </h3>
+            <p class="pub-authors">
+              Nainsi Soni, Viren Vairagi, et al. &nbsp;·&nbsp;
+              5th International Conference on Advanced Computational and Communication Paradigms (ICACCP 2025)
+              &nbsp;·&nbsp; Published 2026
+            </p>
+            <p class="pub-abstract">
+              This paper presents a multi-feature collaborative system that integrates AI and IoT
+              for intelligent urban traffic management. The approach combines real-time sensor data,
+              machine learning for adaptive signal control, and V2X communication for emergency
+              vehicle prioritization — demonstrating measurable reductions in congestion and
+              response times across simulated urban corridors.
+            </p>
+            <a href="https://doi.org/10.1007/978-3-032-13544-5_39" target="_blank" rel="noopener" class="btn btn-ghost">
+              <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+              View DOI
+            </a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       EDUCATION SECTION
+  ============================================================ -->
+  <section id="education" aria-labelledby="edu-title">
+    <div class="container">
+
+      <div class="section-head reveal">
+        <p class="section-label">Education</p>
+        <h2 class="section-title" id="edu-title">Academic Background</h2>
+      </div>
+
+      <div class="edu-stack reveal">
+
+        <!-- Degree card -->
+        <div class="edu-card">
+          <div class="edu-card-body">
+            <h3 class="edu-degree">Bachelor of Engineering — Computer Engineering</h3>
+            <div class="edu-institution">
+              <i class="fas fa-university" aria-hidden="true"></i>&nbsp;
+              S.P.B Patel Engineering College, Mehsana, Gujarat
+            </div>
+            <div class="edu-period">
+              <i class="fas fa-calendar" aria-hidden="true"></i>&nbsp;
+              2022 – 2026
+            </div>
+            <div class="edu-badges">
+              <span class="edu-badge badge-cgpa">CGPA: 8.00</span>
+              <span class="edu-badge badge-year">Expected Graduation: 2026</span>
+            </div>
+            <div class="edu-courses-label">Relevant Coursework</div>
+            <div class="edu-courses">
+              <span class="course-tag">Data Structures &amp; Algorithms</span>
+              <span class="course-tag">Object-Oriented Programming</span>
+              <span class="course-tag">Software Engineering</span>
+              <span class="course-tag">Database Management Systems</span>
+            </div>
+          </div>
+          <div class="edu-card-icon">
+            <i class="fas fa-graduation-cap" aria-hidden="true"></i>
+          </div>
+        </div>
+
+        <!-- Extracurricular card -->
+        <div class="edu-card">
+          <div class="edu-card-body">
+            <h3 class="edu-degree edu-degree--sm">Extracurricular Highlights</h3>
+            <div class="edu-period">Competitions &amp; Hackathons</div>
+            <ul class="timeline-points">
+              <li>Participated in <strong>Smart India Hackathon (SIH) 2025</strong>, developing a Smart Traffic Management System for Urban Congestion to optimize traffic flow.</li>
+              <li>Secured <strong>3rd Prize</strong> at an Intercollegiate Hackathon for the Smart Traffic Management System project.</li>
+            </ul>
+          </div>
+          <div class="edu-card-icon edu-card-icon--amber">
+            <i class="fas fa-trophy" aria-hidden="true"></i>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       CONTACT SECTION
+  ============================================================ -->
+  <section id="contact" aria-labelledby="contact-title">
+    <div class="container">
+
+      <div class="section-head reveal">
+        <p class="section-label">Contact</p>
+        <h2 class="section-title" id="contact-title">Let's Connect</h2>
+      </div>
+
+      <div class="contact-grid reveal">
+
+        <!-- Contact info & links -->
+        <div class="contact-info">
+          <h3 class="contact-info-heading">Open to Opportunities</h3>
+          <p class="contact-info-body">
+            I'm actively looking for full-time roles in data science, machine learning
+            engineering, or software development — and I'm always happy to collaborate on
+            interesting projects. Drop me a message and I'll get back to you promptly.
+          </p>
+          <div class="contact-links">
+            <a href="mailto:vairagiviren5@gmail.com" class="contact-link-item">
+              <span class="contact-link-icon">
+                <i class="fas fa-envelope" aria-hidden="true"></i>
+              </span>
+              vairagiviren5@gmail.com
+            </a>
+            <a href="tel:+919426361308" class="contact-link-item">
+              <span class="contact-link-icon">
+                <i class="fas fa-phone" aria-hidden="true"></i>
+              </span>
+              +91-9426361308
+            </a>
+            <a href="https://www.linkedin.com/in/viren-vairagi-14b536353/" target="_blank" rel="noopener" class="contact-link-item">
+              <span class="contact-link-icon">
+                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+              </span>
+              https://www.linkedin.com/in/viren-vairagi-14b536353/
+            </a>
+            <a href="https://github.com/Viren501/" target="_blank" rel="noopener" class="contact-link-item">
+              <span class="contact-link-icon">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </span>
+              https://github.com/Viren501/
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact form -->
+        <div class="contact-form">
+          <div class="form-group">
+            <label for="contact-name">Your Name</label>
+            <input type="text" id="contact-name" placeholder="Jane Smith" autocomplete="name" />
+          </div>
+          <div class="form-group">
+            <label for="contact-email">Email Address</label>
+            <input type="email" id="contact-email" placeholder="jane@example.com" autocomplete="email" />
+          </div>
+          <div class="form-group">
+            <label for="contact-subject">Subject</label>
+            <input type="text" id="contact-subject" placeholder="Opportunity / Collaboration / Hello" />
+          </div>
+          <div class="form-group">
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" placeholder="Tell me what you have in mind…"></textarea>
+          </div>
+          <button class="btn btn-primary form-submit" id="send-btn" type="button">
+            <i class="fas fa-paper-plane" aria-hidden="true"></i> Send Message
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ============================================================
+       FOOTER
+  ============================================================ -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <p class="footer-copy">
+          &copy; 2026 Viren Vairagi. Crafted with precision.
+        </p>
+        <div class="footer-socials" role="list">
+          <a href="mailto:vairagiviren5@gmail.com" aria-label="Email" role="listitem">
+            <i class="fas fa-envelope" aria-hidden="true"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/viren-vairagi-14b536353/" target="_blank" rel="noopener" aria-label="LinkedIn" role="listitem">
+            <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com/Viren501/" target="_blank" rel="noopener" aria-label="GitHub" role="listitem">
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button id="back-top" aria-label="Back to top">
+    <i class="fas fa-chevron-up" aria-hidden="true"></i>
+  </button>
+
+  <!-- Portfolio Script -->
+  <script src="script.js"></script>
+
+</body>
+</html>
