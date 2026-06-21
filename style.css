@@ -1311,6 +1311,15 @@ section:nth-child(even) {
   .timeline         { padding-left: 1.6rem; }
   .timeline-dot     { left: -1.95rem; }
 }
+/* =========================================
+     NEW FIX: Force items visible on mobile
+     Bypasses the height-limit scroll bug 
+  ========================================= */
+  .reveal-stagger > * {
+      opacity: 1 !important;
+      transform: translateY(0) !important;
+      transition: none !important;
+  }
 
 /* ── Small mobile ── */
 @media (max-width: 420px) {
