@@ -198,7 +198,6 @@ section:nth-child(even) {
 .reveal-stagger.visible > *:nth-child(20) { opacity: 1; transform: translateY(0); transition-delay: 0.15s; }
 
 
-
 /* ================================================================
    06. NAVIGATION
 ================================================================ */
