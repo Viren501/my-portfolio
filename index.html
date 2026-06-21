@@ -82,6 +82,17 @@
             <a href="#contact" class="btn btn-outline">
               <i class="fas fa-paper-plane" aria-hidden="true"></i> Contact Me
             </a>
+            <a href="assets/viren_cv.pdf" target="_blank" rel="noopener" class="btn btn-secondary" style="display: inline-flex; align-items: center; justify-content: center; gap: 8px;">
+              <!-- SVG Document/PDF Icon -->
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <path d="M16 13H8"></path>
+                <path d="M16 17H8"></path>
+                <path d="M10 9H8"></path>
+              </svg>
+              Resume
+            </a>
           </div>
 
           <div class="hero-meta">
@@ -309,7 +320,14 @@
           <div class="timeline-card">
             <div class="timeline-meta">
               <h3 class="timeline-role">Data Analysis &amp; Machine Learning Intern</h3>
-              <span class="timeline-badge">Summer Internship</span>
+              <div style="display: flex; align-items: center; gap: 0.8rem;">
+                <span class="timeline-badge">Summer Internship</span>
+                
+                <a href="assets/infolabz-certificate.pdf" target="_blank" rel="noopener" class="project-link" aria-label="View Certificate" title="View Certificate">
+                  <i class="fas fa-eye" aria-hidden="true"></i>
+                </a>
+              </div>
+              
             </div>
             <div class="timeline-company">InfoLabz IT Services Pvt. Ltd. — Ahmedabad</div>
             <div class="timeline-period">
@@ -400,14 +418,6 @@
             <div class="project-icon icon-violet-soft">
               <i class="fas fa-traffic-light" aria-hidden="true"></i>
             </div>
-            <div class="project-links">
-              <a href="https://github.com/vairagiviren5" target="_blank" rel="noopener" class="project-link" aria-label="GitHub repository">
-                <i class="fab fa-github" aria-hidden="true"></i>
-              </a>
-              <!-- <a href="#" class="project-link" aria-label="Live demo">
-                <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
-              </a> -->
-            </div>
           </div>
           <h3 class="project-title">Adaptive &amp; Collaborative Traffic Control System</h3>
           <p class="project-desc">
@@ -433,11 +443,8 @@
               <i class="fas fa-car" aria-hidden="true"></i>
             </div>
             <div class="project-links">
-              <a href="https://github.com/vairagiviren5" target="_blank" rel="noopener" class="project-link" aria-label="GitHub repository">
-                <!-- <i class="fab fa-github" aria-hidden="true"></i> -->
-              </a>
-              <a href="#" class="project-link" aria-label="Live demo">
-                <i class="fas fa-arrow-up-right-from-square" aria-hidden="true"></i>
+              <a href="https://github.com/Viren501/Car-Average-Prediction" target="_blank" rel="noopener" class="project-link" aria-label="GitHub repository">
+                <i class="fab fa-github" aria-hidden="true"></i>
               </a>
             </div>
           </div>
@@ -455,6 +462,31 @@
             <span class="stack-tag">Linear Regression</span>
             <span class="stack-tag">Matplotlib</span>
             <span class="stack-tag">Seaborn</span>
+          </div>
+        </article>
+
+        <!-- Project : Masters Decision Support System -->
+        <article class="project-card">
+          <div class="project-card-header">
+            <div class="project-icon icon-cyan-soft">
+              <i class="fas fa-user-graduate" aria-hidden="true"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Viren501/Master-Graduation-Prediction-System" target="_blank" rel="noopener" class="project-link" aria-label="GitHub repository">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Masters Decision Support System</h3>
+          <p class="project-desc">
+            Built an interactive machine learning application to help engineering candidates evaluate whether to pursue higher education based on their qualifications and professional financial profiles. The application trains a robust ensemble Random Forest classifier and deploys it through a multi-page, interactive Streamlit web dashboard.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">Pandas & Numpy</span>
+            <span class="stack-tag">LabelEncoder</span>
+            <span class="stack-tag">RandomForestClassifier</span>
+            <span class="stack-tag">Streamlit</span>
           </div>
         </article>
 
@@ -484,6 +516,381 @@
           </div>
         </article>
 
+        <!-- Project 5: Real Estate Price Prediction Model -->
+        <article class="project-card">
+          <div class="project-card-header">
+            <div class="project-icon icon-green-soft">
+              <i class="fas fa-home" aria-hidden="true"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Viren501/real-estate-regression/tree/main" target="_blank" rel="noopener" class="project-link" aria-label="GitHub repository">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Real Estate Price Prediction</h3>
+          <p class="project-desc">
+            Built a continuous predictive pipeline to estimate housing prices based on property features like area, room counts, and amenities. The project establishes a complete data transformation workflow, evaluating standard Linear Regression against Polynomial Regression to analyze feature interactions.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">Pandas</span>
+            <span class="stack-tag">NumPy</span>
+            <span class="stack-tag">Scikit-Learn</span>
+            <span class="stack-tag">Linear Regression</span>
+            <span class="stack-tag">Polynomial Features</span>
+            <span class="stack-tag">Linear Regression</span>
+            <span class="stack-tag">Data preprocessing</span>
+            <span class="stack-tag">StandardScaler</span>
+            <span class="stack-tag">OneHotEncoder</span>
+          </div>
+        </article>
+
+        <!-- Project 6: Experience-Based Salary Predictor -->
+        <article class="project-card">
+          <div class="project-card-header">
+            <div class="project-icon icon-green-soft">
+              <i class="fas fa-money-bill-wave" aria-hidden="true"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Viren501/experience-to-salary-model" target="_blank" rel="noopener" class="project-link" aria-label="GitHub repository">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Experience-Based Salary Predictor</h3>
+          <p class="project-desc">
+            Developed a machine learning model to estimate employee compensation based on years of professional experience. The project demonstrates the end-to-end process of data loading, splitting, and applying continuous predictive modeling.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">Pandas</span>
+            <span class="stack-tag">NumPy</span>
+            <span class="stack-tag">Scikit-Learn</span>
+            <span class="stack-tag">Simple Linear Regression</span>
+          </div>
+        </article>
+
+        <!-- Project 7: Diamond Valuation Prediction Model -->
+         <article class="project-card">
+          <div class="project-card-header">
+            <div class="project-icon icon-cyan-soft">
+              <i class="fas fa-gem" aria-hidden="true"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Viren501/diamond-price-prediction" target="_blank" rel="noopener" class="project-link" aria-label="GitHub repository">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Diamond Valuation Prediction</h3>
+          <p class="project-desc">
+            Developed a robust machine learning pipeline to estimate diamond prices based on physical dimensions, carat weight, and grading metrics (cut, color, clarity). The project compares standard Linear Regression with a Degree-2 Polynomial Regression model to capture complex feature interactions and improve predictive accuracy.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">Pandas</span>
+            <span class="stack-tag">NumPy</span>
+            <span class="stack-tag">Linear Regression</span>
+            <span class="stack-tag">Tree-Based Ensembles (Decision Trees & Random Forest Regressors)</span>
+            <span class="stack-tag">Polynomial Regression</span>
+            <span class="stack-tag">Feature Engineering</span>
+            <span class="stack-tag">StandardScaler</span>
+            <span class="stack-tag">OneHotEncoder</span>
+            <span class="stack-tag">LabelEncoder</span>
+          </div>
+        </article>
+
+        <!-- Project 8: California Housing Price Predictor -->
+         <article class="project-card">
+          <div class="project-card-header">
+            <div class="project-icon icon-amber-soft">
+              <i class="fas fa-city" aria-hidden="true"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Viren501/california-housing-predictor" target="_blank" rel="noopener" class="project-link" aria-label="GitHub repository">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">California Housing Price Predictor</h3>
+          <p class="project-desc">
+            Developed a robust machine learning pipeline to estimate residential property values by analyzing geographical coordinates, regional demographics, and real estate attributes. The project comprehensively explores structural model optimization by systematically mapping underfitting and overfitting states using Decision Trees, identifying a Random Forest ensemble as the most accurate predictor.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">Pandas</span>
+            <span class="stack-tag">NumPy</span>
+            <span class="stack-tag">LabelEncoder</span>
+            <span class="stack-tag">Decision Tree Regressor</span>
+            <span class="stack-tag">Random Forest Regressor Ensemble</span>
+          </div>
+        </article>
+
+        <!-- Project 9: Predictive Vehicle Pricing Engine -->
+         <article class="project-card">
+          <div class="project-card-header">
+            <div class="project-icon icon-violet-soft">
+              <i class="fas fa-car-side" aria-hidden="true"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Viren501/car-price-prediction-ml" target="_blank" rel="noopener" class="project-link" aria-label="GitHub repository">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Predictive Used Vehicle Pricing Engine</h3>
+          <p class="project-desc">
+            Developed a machine learning pipeline to estimate used car prices based on manufacturing specifications, operational parameters, and structural design configurations. The project implements category label transformations and benchmarks sequential boosting frameworks against support vector models to isolate the optimal appraisal architecture.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">Pandas</span>
+            <span class="stack-tag">NumPy</span>
+            <span class="stack-tag">LabelEncoder</span>
+            <span class="stack-tag">StandardScaler</span>
+            <span class="stack-tag">Ensemble Boosting (AdaBoost, Gradient Boosting)</span>
+            <span class="stack-tag">Advanced Gradient Boosting (XGBoost)</span>
+            <span class="stack-tag">Support Vector Regression (SVR)</span>
+          </div>
+        </article>
+
+        <!-- Project 10: Heart Disease Prediction -->
+         <article class="project-card">
+          <div class="project-card-header">
+            <div class="project-icon icon-red-soft" style="background: rgba(255, 91, 107, 0.12); color: #FF5B6B;">
+              <i class="fas fa-heartbeat" aria-hidden="true"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Viren501/heart-disease-predictive-classifier" target="_blank" rel="noopener" class="project-link" aria-label="GitHub repository">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Heart Disease Prediction</h3>
+          <p class="project-desc">
+            Developed a classification pipeline to identify the presence or absence of heart disease based on patient physiological characteristics and clinical test diagnostics. The project translates qualitative diagnosis criteria and systematically benchmarks parametric, tree-based, ensemble, and distance-based classifiers to secure a high-precision diagnostic screening baseline.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">Pandas</span>
+            <span class="stack-tag">NumPy</span>
+            <span class="stack-tag">Matplotlib</span>
+            <span class="stack-tag">Seaborn</span>
+            <span class="stack-tag">Linear Classifiers (Logistic Regression)</span>
+            <span class="stack-tag">Tree & Ensemble Models (Decision Tree, Random Forest Classifiers)</span>
+            <span class="stack-tag">Instance-Based Learning (K-Nearest Neighbors)</span>
+          </div>
+        </article>
+
+        <!-- Project 11: Loan Default Prediction -->
+         <article class="project-card">
+          <div class="project-card-header">
+            <div class="project-icon icon-amber-soft">
+              <i class="fas fa-file-invoice-dollar" aria-hidden="true"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Viren501/Automated-Loan-Default-Prediction-Engine" target="_blank" rel="noopener" class="project-link" aria-label="GitHub repository">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Loan Default Prediction</h3>
+          <p class="project-desc">
+            Developed a machine learning risk classification pipeline to evaluate loan application profiles and forecast credit default probabilities. The project addresses class imbalances, utilizes category label transformations, and systematically benchmarks parametric, tree-based, ensemble, and distance-based architectures to establish a secure screening matrix.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">Pandas</span>
+            <span class="stack-tag">NumPy</span>
+            <span class="stack-tag">Matplotlib</span>
+            <span class="stack-tag">Seaborn</span>
+            <span class="stack-tag">LabelEncoder</span>
+            <span class="stack-tag">Decision Tree, Random Forest Classifiers</span>
+            <span class="stack-tag">K-Nearest Neighbors</span>
+          </div>
+        </article>
+
+        <!-- Project 12: Telco Customer Churn Prediction -->
+         <article class="project-card">
+          <div class="project-card-header">
+            <div class="project-icon icon-cyan-soft">
+              <i class="fas fa-user-minus" aria-hidden="true"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Viren501/telco-customer-churn-prediction" target="_blank" rel="noopener" class="project-link" aria-label="GitHub repository">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Telco Customer Churn Prediction</h3>
+          <p class="project-desc">
+            Developed a predictive classification pipeline to identify telecom subscribers at risk of canceling their contracts by analyzing historical service usage, demographic markers, and billing attributes. The project applies robust category transformations and benchmarks parametric classifiers against tree-based ensembles to navigate model overfitting and establish actionable validation splits.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">Pandas</span>
+            <span class="stack-tag">NumPy</span>
+            <span class="stack-tag">Matplotlib</span>
+            <span class="stack-tag">Seaborn</span>
+            <span class="stack-tag">LabelEncoder</span>
+            <span class="stack-tag">Decision Tree, Random Forest Classifiers</span>
+          </div>
+        </article>
+
+        <!-- Project 13: Data-Driven Customer Segmentation -->
+         <article class="project-card">
+          <div class="project-card-header">
+            <div class="project-icon icon-violet-soft">
+              <i class="fas fa-users" aria-hidden="true"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Viren501/Data-Driven-Customer-Segmentation" target="_blank" rel="noopener" class="project-link" aria-label="GitHub repository">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Data-Driven Customer Segmentation</h3>
+          <p class="project-desc">
+            Built an unsupervised machine learning pipeline to partition a retail consumer base into distinct behavioral cohorts using annual income and historical spending patterns. The project implements the Elbow Method to mathematically isolate the ideal cluster count and deploys a K-Means algorithm to extract actionable demographic insights.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">Pandas</span>
+            <span class="stack-tag">NumPy</span>
+            <span class="stack-tag">Matplotlib</span>
+            <span class="stack-tag">Seaborn</span>
+            <span class="stack-tag">Scikit-Learn</span>
+            <span class="stack-tag">K-Means Clustering</span>
+            <span class="stack-tag">The Elbow Method</span>
+          </div>
+        </article>
+
+        <!-- Project 14: Wine Analytics Dimensionality Reduction -->
+        <article class="project-card">
+          <div class="project-card-header">
+            <div class="project-icon icon-violet-soft">
+              <i class="fas fa-wine-glass-alt" aria-hidden="true"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Viren501/Wine-Analytics-Dimensionality-Reduction" target="_blank" rel="noopener" class="project-link" aria-label="GitHub repository">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Wine Analytics Dimensionality Reduction</h3>
+          <p class="project-desc">
+            Implemented an unsupervised machine learning preprocessing pipeline to condense a high-dimensional chemical profiling dataset using Principal Component Analysis (PCA). The project applies rigorous z-score standardization and maps variance distributions across orthogonal feature dimensions to eliminate feature redundancy while retaining maximum data structure.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">Pandas</span>
+            <span class="stack-tag">NumPy</span>
+            <span class="stack-tag">Scikit-Learn Preprocessing (StandardScaler)</span>
+            <span class="stack-tag">Unsupervised Decomposition (PCA)</span>
+          </div>
+        </article>
+
+        <!-- Project 15: High-Dimensional Digit Clustering and Visualization -->
+        <article class="project-card">
+          <div class="project-card-header">
+            <div class="project-icon icon-cyan-soft">
+              <i class="fas fa-braille" aria-hidden="true"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Viren501/manifold-learning-clustering" target="_blank" rel="noopener" class="project-link" aria-label="GitHub repository">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">High-Dimensional Digit Clustering and Visualization</h3>
+          <p class="project-desc">
+            Manifold learning algorithms to reduce and map complex, high-dimensional image pixel matrices into a compressed geometric plane. By implementing t-Distributed Stochastic Neighbor Embedding (t-SNE) on handwritten digit grids, the project collapses 64 feature boundaries into an optimal 2-dimensional spatial projection. The resulting interactive scatter map exposes clean non-linear spatial dependencies, clustering similar structural entities with high separation boundaries.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">Pandas</span>
+            <span class="stack-tag">NumPy</span>
+            <span class="stack-tag">Scikit-Learn Preprocessing (StandardScaler)</span>
+            <span class="stack-tag">Manifold Learning (TSNE)</span>
+          </div>
+        </article>
+
+        <!-- Project 16: Customer Purchase Behaviour Analysis -->
+        <article class="project-card">
+          <div class="project-card-header">
+            <div class="project-icon icon-green-soft">
+              <i class="fas fa-shopping-basket" aria-hidden="true"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Viren501/customer-purchase-behaviour-analysis" target="_blank" rel="noopener" class="project-link" aria-label="GitHub repository">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Customer Purchase Behaviour Analysis</h3>
+          <p class="project-desc">
+            Developed an unsupervised data mining pipeline to evaluate grocery transaction histories and uncover hidden product affinities. The solution aggregates point-of-sale item logs into distinct customer purchase events, utilizing the Apriori algorithm to map co-purchasing probabilities.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">Pandas</span>
+            <span class="stack-tag">Apriori Frequent Itemset Algorithm</span>
+            <span class="stack-tag">Association Rules Generation (Support, Confidence, Lift)</span>
+          </div>
+        </article>
+
+        <!-- Project 17: User Viewing Preference Analysis -->
+        <article class="project-card">
+          <div class="project-card-header">
+            <div class="project-icon icon-amber-soft">
+              <i class="fas fa-film" aria-hidden="true"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Viren501/user-viewing-preference-analysis" target="_blank" rel="noopener" class="project-link" aria-label="GitHub repository">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">User Viewing Preference Analysis</h3>
+          <p class="project-desc">
+            Developed an unsupervised collaborative filtering pipeline to analyze MovieLens interaction records and uncover latent viewer co-watch habits. The engine enforces dense profiling thresholds to filter out background noise and leverages the tree-structured FP-Growth algorithm to discover highly frequent content bundles.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">Pandas & Numpy</span>
+            <span class="stack-tag">Mlxtend Machine Learning Framework</span>
+            <span class="stack-tag">FP-Growth (Frequent Pattern Growth) Algorithm</span>
+            <span class="stack-tag">Matrix Binarization & Collaborative Filtering</span>
+          </div>
+        </article>
+
+        <!-- Project 18: Bank Customer Churn Prediction -->
+        <article class="project-card">
+          <div class="project-card-header">
+            <div class="project-icon icon-violet-soft">
+              <i class="fas fa-university" aria-hidden="true"></i>
+            </div>
+            <div class="project-links">
+              <a href="https://github.com/Viren501/bank-customer-churn-prediction" target="_blank" rel="noopener" class="project-link" aria-label="GitHub repository">
+                <i class="fab fa-github" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+          <h3 class="project-title">Bank Customer Churn Prediction</h3>
+          <p class="project-desc">
+            A customer risk classification framework using a 10,000-record financial database to identify retail banking clients at risk of exiting the institution. The pipeline evaluates dataset balance, prepares demographic profiles, and establishes a benchmarking blueprint across Random Forest, Decision Trees, and complementary estimators.
+          </p>
+          <div class="project-stack">
+            <span class="stack-tag">Python</span>
+            <span class="stack-tag">Pandas & Numpy</span>
+            <span class="stack-tag">Random Forest Classifier</span>
+            <span class="stack-tag">Decision Tree Classifier</span>
+            <span class="stack-tag">Classification Assessment Metrics</span>
+          </div>
+        </article>
+
+        
       </div>
     </div>
   </section>
