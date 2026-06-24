@@ -196,6 +196,10 @@ section:nth-child(even) {
 .reveal-stagger.visible > *:nth-child(18) { opacity: 1; transform: translateY(0); transition-delay: 0.25s; }
 .reveal-stagger.visible > *:nth-child(19) { opacity: 1; transform: translateY(0); transition-delay: 0.05s; }
 .reveal-stagger.visible > *:nth-child(20) { opacity: 1; transform: translateY(0); transition-delay: 0.15s; }
+.reveal-stagger.visible > *:nth-child(21) { opacity: 1; transform: translateY(0); transition-delay: 0.25s; }
+.reveal-stagger.visible > *:nth-child(22) { opacity: 1; transform: translateY(0); transition-delay: 0.05s; }
+.reveal-stagger.visible > *:nth-child(23) { opacity: 1; transform: translateY(0); transition-delay: 0.15s; }
+.reveal-stagger.visible > *:nth-child(24) { opacity: 1; transform: translateY(0); transition-delay: 0.25s; }
 
 
 /* ================================================================
